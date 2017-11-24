@@ -1,11 +1,15 @@
 {
-  "name": "magic-ui",
+  "name": "vue-magic",
   "description": "A Vue.js component",
-  "main": "dist/entry.js",
-  "version": "1.0.0",
+  "main": "dist/magic.js",
+  "version": "0.0.2",
   "author": "magic_xin",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicxin/magic-ui.git"
+  },
   "bugs": {
     "url": "https://github.com/magicxin/magic-ui/issues"
   },

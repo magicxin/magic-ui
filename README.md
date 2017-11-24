@@ -1,19 +1,20 @@
-# magic-ui
+# vue-magic
 
-> A Vue.js component
+> 一个基于vue.js的插件库
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+#依赖vue.js
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 安装
+npm install vue-magic -save
 
-# build for production with minification
-npm run build
+#使用
+main.js 文件下
+import Vue from 'vue'
+import magic from 'vue-magic'
+Vue.use(magic)
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-"# magic-ui" 
+
